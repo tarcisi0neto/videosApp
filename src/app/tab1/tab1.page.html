@@ -10,45 +10,19 @@
 
 <ion-content class="container" [fullscreen]="true" color="">
   <ion-searchbar placeholder="Buscar" showCancelButton="focus"></ion-searchbar>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Receitas Deliciosas</ion-card-title>
-      <ion-card-subtitle>As melhores receitas para fazer em casa</ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <div>
-        <img src="../../assets/tumbnail2.jpg" alt="">
-      </div>
-      <span>Receitas práticas para todas as refeições</span>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Podcasts</ion-card-title>
-      <ion-card-subtitle>Os podcasts mais relevantes da internet</ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <div>
-        <img src="../../assets/tumbnail3.jpg" alt="">
-      </div>
-      <span>Os melhores cortes de podcast</span>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Os melhores vídeos da internet</ion-card-title>
-      <ion-card-subtitle>Para todas as idades</ion-card-subtitle>
-    </ion-card-header>
-
-    <ion-card-content>
-      <div>
-        <img src="../../assets/tumbnail1.jfif" alt="">
-      </div>
-      <span>Videos mais engraçados, tente não rir #1 Nivel Hard</span>
-    </ion-card-content>
-  </ion-card>
+  <ion-list>
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <h1>Batman (2022)</h1>
+        <p>03/03/2022 (BR) - 3h 5m</p>
+        <p class="category">Crime, Mistério, Thriller</p>
+      </ion-label>
+      <ion-chip color="success">
+        <ion-label>78%</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
 </ion-content>

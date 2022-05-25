@@ -27,4 +27,13 @@ ion-searchbar {
     // color: var(--ion-color-light);
     color: #383a3e;
   }
+
+  .searchbar-input.sc-ion-searchbar-ios{
+    border-radius: 1rem;
+    background-color: #848587 ;
+  }
+  .searchbar-cancel-button.sc-ion-searchbar-ios{
+    // color: var(--ion-color-light);
+    color: #383a3e;
+  }
 }

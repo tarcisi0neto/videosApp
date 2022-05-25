@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
+  isRotate: boolean;
+  isClicked: boolean;
   constructor() {}
+
+  rotateFunc() {
+    this.isRotate = true;
+    this.isClicked = true;
+  }
 
 }
